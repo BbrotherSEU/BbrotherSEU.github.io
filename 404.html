@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — 页面走丢了</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+  .notfound {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+  }
+  .notfound .code { font-size: 72px; font-weight: 700; letter-spacing: 4px; color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="notfound">
+    <p class="code">404</p>
+    <h1>这个页面不存在</h1>
+    <p class="hero-desc">链接可能已经失效，或者地址拼错了。</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/">回到首页</a>
+      <a class="btn" href="https://github.com/BbrotherSEU" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>

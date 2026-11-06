@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>范彬 Fan.Bin — 后端工程师 / AI 应用 / 3D 交互</title>
+<meta name="description" content="范彬（Fan.Bin），Citi GFTS 后端工程师，关注大模型应用与浏览器 3D 交互。">
+<meta property="og:title" content="范彬 Fan.Bin">
+<meta property="og:description" content="后端工程师 @ Citi GFTS · 大模型应用 · 浏览器 3D 交互">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍃</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="nav-brand" href="/">Fan.Bin</a>
+  <nav class="nav-links">
+    <a href="#about">关于</a>
+    <a href="#projects">项目</a>
+    <a href="#stack">技术栈</a>
+    <a href="https://github.com/BbrotherSEU" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/10509353?v=4" alt="范彬的头像" width="132" height="132" loading="eager">
+      <h1>范彬 <span class="en">Fan.Bin</span></h1>
+      <p class="tagline">后端工程师 @ Citi GFTS · 上海</p>
+      <p class="hero-desc">
+        写 Java / Python / TypeScript，也喜欢把想法做成能跑的东西 ——
+        从企业级后端，到浏览器里的 3D 小店，再到大模型 Agent 系统。
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">看看项目</a>
+        <a class="btn" href="https://github.com/BbrotherSEU" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="hero-meta">
+        <span>📍 Shanghai</span>
+        <span>🏢 Citi GFTS</span>
+        <span>🚀 since 2015</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="section-head">
+      <span class="section-index">01</span>
+      <h2>关于我</h2>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>
+          我是樊斌（Fan.Bin），目前在 <strong>Citi GFTS</strong> 做后端开发，日常和 Spring Boot、分布式系统、数据迁移打交道。
+        </p>
+        <p>
+          工作之外，兴趣基本集中在两件事上：<strong>把 AI 用起来</strong> ——
+          不止是调 API，而是把大模型编排成可靠的多 Agent 流水线；<strong>把东西做出来</strong> ——
+          从 3D 浏览器应用到教学小游戏，验证想法最快的方式就是写一个能点开的版本。
+        </p>
+      </div>
+      <blockquote>
+        我的判断标准很简单：一个项目如果别人不能在三分钟内跑起来看到效果，那它大概率还没写完。
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="section-head">
+      <span class="section-index">02</span>
+      <h2>精选项目</h2>
+      <a class="section-more" href="https://github.com/BbrotherSEU?tab=repositories" target="_blank" rel="noopener">全部仓库 ↗</a>
+    </div>
+
+    <div class="cards">
+
+      <article class="card">
+        <div class="card-top">
+          <span class="card-badge">AI / 大模型</span>
+          <h3><a href="https://github.com/BbrotherSEU/llm_ai_resume_jd_matching" target="_blank" rel="noopener">HR 简历筛选系统</a></h3>
+        </div>
+        <p>
+          Orchestrator 主 Agent 编排 JD 分析、简历解析、匹配打分、欺诈检测四个子 Agent，
+          输出可读的评估结论。支持 PDF/TXT 拖拽上传，带 Web UI 与 REST API。
+        </p>
+        <div class="tags"><span>Python</span><span>LLM</span><span>Multi-Agent</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <span class="card-badge">3D / 交互</span>
+          <h3><a href="https://github.com/BbrotherSEU/forest-shop" target="_blank" rel="noopener">林间文具店</a></h3>
+        </div>
+        <p>
+          浏览器 3D 文具店，用于小学二年级「元 / 角」钱币练习：学生选货、填金额、用虚拟现金付款、算找零；
+          教师端单独复盘每笔交易的错误次数。
+        </p>
+        <div class="tags"><span>TypeScript</span><span>React 19</span><span>Three.js</span><span>Zustand</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <span class="card-badge">3D / 教学</span>
+          <h3><a href="https://github.com/BbrotherSEU/kid-shop-3d" target="_blank" rel="noopener">课堂 3D 商店</a></h3>
+        </div>
+        <p>
+          面向上课场景的轻量 3D 商店，界面为低年级学生设计，专注练习元角换算这一件事。
+        </p>
+        <div class="tags"><span>TypeScript</span><span>Three.js</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <span class="card-badge">工程 / 工具</span>
+          <h3><a href="https://github.com/BbrotherSEU/skill-manager" target="_blank" rel="noopener">Skill Manager</a></h3>
+        </div>
+        <p>
+          OpenCode Skills 管理与展示系统：统一查看默认 Skills、工作区 Skills 和当前运行中的项目，
+          并可调用 CLI 解释每个 Skill 的实际用途。
+        </p>
+        <div class="tags"><span>React 18</span><span>Express</span><span>TypeScript</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <span class="card-badge">AI / 环境</span>
+          <h3><a href="https://github.com/BbrotherSEU/build-local-ai" target="_blank" rel="noopener">本地大模型搭建指南</a></h3>
+        </div>
+        <p>
+          从零搭本地大模型环境：NVIDIA 驱动 → CUDA → Ollama → 模型选型与显存估算，
+          全流程按步骤可直接照做，附常见坑的排查方法。
+        </p>
+        <div class="tags"><span>Python</span><span>Ollama</span><span>CUDA</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <span class="card-badge">后端</span>
+          <h3><a href="https://github.com/BbrotherSEU/mySpringBootRedis" target="_blank" rel="noopener">Spring Boot + Redis</a></h3>
+        </div>
+        <p>
+          Spring Boot 与 Redis 集成的实践工程，含 Swagger UI、缓存配置与序列化方案，
+          是为团队新人准备的后端脚手架参考。
+        </p>
+        <div class="tags"><span>Java</span><span>Spring Boot</span><span>Redis</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="stack" class="section">
+    <div class="section-head">
+      <span class="section-index">03</span>
+      <h2>技术栈</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-group">
+        <h3>后端</h3>
+        <div class="tags"><span>Java</span><span>Spring Boot</span><span>Redis</span><span>MySQL</span><span>Python</span></div>
+      </div>
+      <div class="stack-group">
+        <h3>前端 / 3D</h3>
+        <div class="tags"><span>TypeScript</span><span>React</span><span>Three.js</span><span>React Three Fiber</span><span>Tailwind CSS</span></div>
+      </div>
+      <div class="stack-group">
+        <h3>AI / 基础设施</h3>
+        <div class="tags"><span>LLM</span><span>Multi-Agent</span><span>Ollama</span><span>Docker</span><span>Go</span></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p><strong>范彬 Fan.Bin</strong> · 后端工程师 @ Citi GFTS</p>
+    <p class="footer-links">
+      <a href="https://github.com/BbrotherSEU" target="_blank" rel="noopener">GitHub</a>
+      <span>·</span>
+      <a href="https://github.com/BbrotherSEU?tab=repositories" target="_blank" rel="noopener">Repositories</a>
+    </p>
+    <p class="footer-note">Made with ☕ in Shanghai</p>
+  </div>
+</footer>
+
+<script>
+  // 滚动时导航栏加深背景
+  const nav = document.querySelector('.nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 12);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>
+
+</body>
+</html>
